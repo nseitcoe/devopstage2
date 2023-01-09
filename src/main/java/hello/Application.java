@@ -11,7 +11,7 @@ public class Application {
 
     @RequestMapping("/")
     public String home() {
-        return "Kya devops banega re tu!! V1";
+        return "Mai ban gya devops Engineer!!";
     }
 
     public static void main(String[] args) {
