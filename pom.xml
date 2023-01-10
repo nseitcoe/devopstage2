@@ -63,31 +63,13 @@
         </dependency>
     </dependencies>
 
-    <repositories>
-    <repository>
-    <id>azuredev.app</id>
-    <url>https://pkgs.dev.azure.com/COEDevOpsProject/b2b65efa-0961-4721-b8c9-3da961be1aa4/_packaging/azuredev.app/maven/v1</url>
-    <releases>
-        <enabled>true</enabled>
-    </releases>
-    <snapshots>
-        <enabled>true</enabled>
-    </snapshots>
-    </repository>
-    </repositories>
-    
-    <distributionManagement>
-    <repository>
-    <id>azuredev.app</id>
-    <url>https://pkgs.dev.azure.com/COEDevOpsProject/b2b65efa-0961-4721-b8c9-3da961be1aa4/_packaging/azuredev.app/maven/v1</url>
-    <releases>
-        <enabled>true</enabled>
-    </releases>
-    <snapshots>
-        <enabled>true</enabled>
-    </snapshots>
-    </repository>
-    </distributionManagement>    
+
+<distributionManagement>
+   <repository>
+      <id>devopstage2</id>
+      <url>http://20.204.151.243:8081/repository/devopstage2/</url>
+   </repository>
+</distributionManagement>   
 
 
 </project>
