@@ -66,8 +66,8 @@
 
 <distributionManagement>
    <repository>
-      <id>devopstage2</id>
-      <url>http://20.204.151.243:8081/repository/devopstage2/</url>
+      <id>devopsnexusstage</id>
+      <url>http://20.204.151.243:8081/repository/devopsnexusstage/</url>
    </repository>
 </distributionManagement>   
 
