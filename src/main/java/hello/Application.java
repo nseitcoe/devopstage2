@@ -11,7 +11,7 @@ public class Application {
 
     @RequestMapping("/")
     public String home() {
-        return "Azure DevOps is the best";
+        return "Hello from Prod Pipeline!!";
     }
 
     public static void main(String[] args) {
